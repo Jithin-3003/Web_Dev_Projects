@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jithin - Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="left">Jithin's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</li></a>
+          <li><a href="about.html">About</li></a>
+          <li><a href="project.html">Projects</li></a>
+          <li><a href="contact.html">Contact Me</li></a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, I am <span class="purple">Jithin </span> and
+        <div>I am a budding</div>
+        <span id="element"></span>
+        <a style="text-decoration:none" href="Jithin_Resume_3.pdf" download="jithin_resume">
+        <button class="cssbuttons-io-button"> Download Resume
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path fill="currentColor"
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+            </svg>
+          </div>
+        </button>
+      </a>
+      </div>
+      <div class="rightSection">
+        <img src="./assets/dev.png" alt="Image of a developer">
+      </div>
+    </section>
+    <hr>
+    <section class="secondSection">
+      <span class="text-gray"> What I have done so far</span>
+      <h1>Work Experience </h1>
+
+      <div class="box">
+        <div class="vertical">
+          <img src="./assets/accenture.png" alt="" class="image-top">
+          <div class="vertical-title">
+            Accenture North America-Coding Virtual Experience Program (January 2022)
+          </div>
+          <div class="vertical-desc">
+            Completed practical task modules in:
+            <ul>
+              <li>Object Oriented Programming</li>
+              <li>Code Refactoring</li>
+              <li>Continuous Integration</li>
+              <li>Agile Planning</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="./assets/mastercard.png" alt="" class="image-top">
+          <div class="vertical-title">
+            Mastercard-Cybersecurity Virtual Experience Program (June 2022)
+          </div>
+          <div class="vertical-desc">
+            Completed practical task modules in:
+            <ul>
+              <li>Designing a phishing email simulation</li>
+              <li>Interpreting simulation results</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="./assets/goldman.png" alt="" class="image-top">
+          <div class="vertical-title">
+            Goldman Sachs- Engineering Virtual Experience Program (July 2022)
+          </div>
+          <div class="vertical-desc">
+            Completed practical task modules in:
+            <ul>
+              <li>Cracking a Password Database</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="./assets/deloitt.png" alt="" class="image-top">
+          <div class="vertical-title">
+            Deloitte Australia- Technology Virtual Experience Program (May 2023)
+          </div>
+          <div class="vertical-desc">
+            Completed practical task modules in:
+            <ul>
+              <li>Coding</li>
+              <li>Data Analysis</li>
+              <li>Development</li>
+              <li>Cyber Security</li>
+              <li>Forensic Technology</li>
+            </ul>
+          </div>
+        </div>
+        <div class="vertical">
+          <img src="./assets/british.png" alt="" class="image-top">
+          <div class="vertical-title">
+            British Airways- Data Science Virtual Experience Program (June 2023)
+          </div>
+          <div class="vertical-desc">
+            Completed practical task modules in:
+            <ul>Web scraping to gain company insights</ul>
+            <ul>Predicting customer buying behaviour</ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>Jithin's Developer Portfolio</h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-third"></div>
+        <ul>
+          <li></li>
+        </ul>
+      <div class="footer-fourth"></div>
+    </div>
+    <div class="footer-rights">
+      Copyright &#169; jithinsportfolio.com | All rights reserved
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer.', 'Gamer.', 'Cybersecurity Enthusiast.', 'Data Scientist.', 'Software Engineer.'],
+      typeSpeed: 70,
+    });
+  </script>
+</body>
+
+</html>
